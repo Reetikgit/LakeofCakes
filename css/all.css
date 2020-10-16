@@ -6273,9 +6273,10 @@ Logo Header Area Start
 
 .categories_menu_inner > ul > li > ul.categories_mega_menu {
    position: absolute;
-    left: -95px !important;
+    left: -145px !important;
     /*width: 480px;*/
     top: 40px !important;
+    height: 450px;
     padding: 16px 15px 0;
     top: 0;
     opacity: 0;
@@ -6287,7 +6288,12 @@ Logo Header Area Start
     background: #fff;
     -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
-    transition: 0.3s linear 0.3s;
+    transition: 0.1s linear 0.1s;
+    box-sizing: border-box;
+    overflow-y: auto;
+    box-sizing: content-box;
+    float: left;
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -6404,6 +6410,12 @@ nav .menu li {
   }
 
 
+.navimagebox{
+  width: 300px;
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 50px;
+}
 
 /*
 DROPDOWN STYLE
@@ -7120,8 +7132,23 @@ nav button {
 /*-----------------------------
 ** Banner Section Start
 ------------------------------*/
+
+.bannerheading{
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  font-size: 2em;
+  color: #1c7780;
+  padding: 10px;
+}
 .banner-section {
-  padding: 30px 0px 30px; }
+  background: linear-gradient(rgba(255,255,255,.1), rgba(161, 75, 54, 0.616));
+  /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px 50px; 
+  
+}
   .banner-section img {
     width: 100%; }
 .banner-section .left {
@@ -7133,10 +7160,13 @@ nav button {
     margin-left: 15px; }
 
     .banner-effect{
+
       position: relative;
       display: block;
       width: 100%;
       overflow: hidden;
+      border: 1px groove black;
+      border-radius: 30px;
     }
    .banner-effect::after{
     position: absolute;
@@ -12180,7 +12210,13 @@ input[type=checkbox]:checked:disabled + label:before {
 
 /*  Slider buttom Category Start */
 .slider-buttom-category {
+
   padding-top: 30px;
+
+  border-radius: 100px;
+    /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
+
+
 }
 .slider-buttom-category .single-category{
   display: flex;
@@ -12193,6 +12229,7 @@ input[type=checkbox]:checked:disabled + label:before {
   -moz-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
+
 }
 .slider-buttom-category .single-category::before {
   position: absolute;
