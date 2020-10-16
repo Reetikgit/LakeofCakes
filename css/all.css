@@ -7149,6 +7149,14 @@ nav button {
   padding: 50px 0px 50px; 
   
 }
+.typeofcakes-section {
+  background: linear-gradient(rgba(255,255,255,.1), rgba(161, 75, 54, 0.616));
+  background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url('../images/emboidary1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px 50px; 
+  
+}
   .banner-section img {
     width: 100%; }
 .banner-section .left {
@@ -13974,7 +13982,18 @@ p.product-unit-price {
 }
 
 }
+@media only screen and (min-width: 415px )and (max-width:454px) {
+  .banner-section{
+    margin-top: -40%;
+  }
 
+}
+@media only screen and (min-width: 465px )and (max-width:631px) {
+  .banner-section{
+    margin-top: -20%;
+  }
+
+}
 @media only screen and (max-width: 991px) {
 
 
@@ -14005,6 +14024,7 @@ p.product-unit-price {
   .logo-header .search-box {
     height: 30px;
   }
+]
   .banner-section .left {
     margin-bottom: 20px;
     margin-right: 0px;
@@ -14166,6 +14186,13 @@ nav .menu li a{
 
 
 @media only screen and (max-width: 767px) {
+  .slider-buttom-category {
+  
+    border-radius: 100px;
+      /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
+  
+  
+  }
 
   .tab-content > .nav-row.mt-4{
     margin-top: 30px!important;
@@ -14330,6 +14357,15 @@ nav .menu li a{
 
 
 @media only screen and (max-width: 575px) {
+  .slider-buttom-category {
+
+
+  
+    border-radius: 0px;
+      /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
+  
+  
+  }
   .flash-deals .flas-deal-slider .item .deal-counter {
     padding: 8px;
 }
