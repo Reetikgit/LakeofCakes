@@ -292,19 +292,23 @@
       cursor: pointer;
       width: 92px;
       height: 92px;
-      border-radius: 50%;
+      border-radius: 30%;
       background: #fff;
       overflow: hidden;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       transition: all 1s ease;
       position: relative;
       top: 0px;
+      margin: auto;
+      /* background: linear-gradient(rgba(255,255,255,.1), rgba(134, 214, 81, 0.493)); */
     }
 
     .comimg {
-      max-width: 92px;
+      
+      width: 92px;
       height: 92px;
       border-radius: 50%;
+      /* background: linear-gradient(rgba(255,255,255,.1), rgba(134, 214, 81, 0.493)); */
     }
 
     .cardc {
