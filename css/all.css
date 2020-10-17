@@ -40464,7 +40464,7 @@ nav button {
     width: 100%;
     overflow: hidden; 
     border-right-color:orange;
-   
+
     
 }
 .banner-effect2::after {
@@ -40507,7 +40507,9 @@ nav button {
     -moz-transition: 0.26s ease-in;
     -o-transition: 0.26s ease-in;
     transition: 0.26s ease-in;
-
+    background-attachment: scroll;
+    
+    
     
 }
 
