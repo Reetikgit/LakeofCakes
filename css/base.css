@@ -570,11 +570,11 @@
       }
 
       .scres::-webkit-scrollbar {
-        display: none;
+        display: block;
       }
 
       .scres::-webkit-scrollbar {
-        display: none;
+        display: block;
       }
     }
 

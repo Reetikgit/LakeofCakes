@@ -40462,9 +40462,7 @@ nav button {
     position: relative;
     display: block;
     width: 100%;
-    overflow: hidden;
-    border-radius: 20px;
- 
+    overflow: hidden; 
     border-right-color:orange;
    
     
@@ -47014,8 +47012,8 @@ input[type=checkbox]:checked:disabled+label:before {
 /*  Slider buttom Category Start */
 
 .slider-buttom-category {
-    padding-top: 30px;
-    border-radius: 100px;
+    /* padding-top: 30px;
+    border-radius: 100px; */
     /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
 }
 
@@ -48944,6 +48942,7 @@ p.product-unit-price {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
     .cartpage .right-area .order-box .cupon-box #coupon-form button {
         margin-top: 10px;
     }
@@ -50029,9 +50028,28 @@ p.product-unit-price {
     }
 }
 
+@media only screen and (min-width: 900px) {
+    .roundedborder{
+        
+        padding-top: 30px;
+        border-radius: 100px;
+        /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
+    }
+    .banner-effect2 {
+        border-radius: 20px;       
+        
+    }
+
+}
 @media only screen and (max-width: 350px) {
     .info-area .info-box .icon img {
         width: 20px;
+    }
+    .roundedinleptop {
+        visibility: hidden;
+        padding-top: 30px;
+        border-radius: 100px;
+        /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
     }
 }
 
@@ -50271,5 +50289,9 @@ section.phone-and-accessories.categori-item {
         max-width: 61px !important;
         height: 61px !important;
         border-radius: 50%;
+    }
+     .cardc {
+      transition: all 2s ease;
+      width: 70px !important;
     }
 }
