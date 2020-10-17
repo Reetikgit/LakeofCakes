@@ -4815,7 +4815,12 @@ input[type=submit].btn-block {
 }
 
 .card-title {
-    margin-bottom: .75rem
+    margin-bottom: .75rem;
+    background-color:rgba(190, 33, 46, 0.7);
+    border-radius: 10px;
+    color: wheat;
+    padding: 5px;
+
 }
 
 .card-subtitle {
@@ -39699,29 +39704,36 @@ nav button {
     left: 10%;
     transform: translateX(-50%);
     bottom: 20px;
+    color:blue ;
+    
     
 }
 
 .hero-area .hero-area-slider .owl-controls .owl-dots .owl-dot {
-    width: 10px;
+    width: 40px;
     height: 6px;
     background: #fff;
     display: inline-block;
     border-radius: 0px;
-    transform: skewX(-30deg);
+    transform: skewX(0deg);
     margin: 0px 3px 0px;
+    border-radius: 100px;
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    background-color:orange;
 }
 
 .hero-area .hero-area-slider .owl-controls .owl-dots .owl-dot.active {
-    background: #fff;
+    background: gray;
     width: 25px
 }
-
+.hero-area .hero-area-slider .owl-controls .owl-dots .owl-dot:hover{
+    padding:5px;
+}
 
 /* hero Slider dot design End */
 
@@ -40436,7 +40448,7 @@ nav button {
 }
 
 .banner-section {
-    background: linear-gradient(rgba(255, 255, 255, .1), rgba(161, 75, 54, 0.616));
+    /* background: linear-gradient(rgba(255, 255, 255, .1), rgba(161, 75, 54, 0.616)); */
     /* background: linear-gradient(rgba(255,255,255,.1), rgba(69, 182, 163, 0.616)), url("https://i.pinimg.com/originals/34/ec/65/34ec654e0194df001227ac5d105637f6.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -40453,6 +40465,7 @@ nav button {
 
 .banner-section img {
     width: 100%;
+    
 }
 
 .banner-section .left {

@@ -129,10 +129,11 @@
     }
 
     .footer .footer-widget ul li a {
-      color: #000 !important;
+      color:rgba(2, 21, 37, 0.725) !important;
       -webkit-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in;
+      font-weight: 700;
     }
 
     .footer .footer-widget .title {
@@ -140,7 +141,8 @@
       font-size: 22px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #02020c !important;
+      color: #ffffff !important;
+      font-weight: 800;
     }
 
     /*Green Truck*/
@@ -355,7 +357,11 @@
       background: #fff;
       padding: 3px;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+      /* width: 350px;
+      height: 200px;
+      object-fit: contain; */
     }
+
 
     .costambuttons {
       width: 159px;
@@ -796,24 +802,29 @@
       font-family: Roboto, sans-serif;
       text-decoration: none;
       box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.2);
+    }
 
-      i {
+      /* i {
         margin-right: 20px;
         transition: margin-right 0.2s ease;
       }
 
       &:hover {
         width: 134px;
+      }
 
         i {
           margin-right: 10px;
-        }
-      }
-    }
+        } */
+      
+    
 
     @media screen and (max-width: 800px) {
       .follow {
         margin: 400px auto 0;
+      }
+      .giftsfor{
+        font-size: 0.7em !important;
       }
     }
 
@@ -821,5 +832,13 @@
       .drover {
         display: none !important;
       }
+    }
+    .giftsfor{
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: bolder;
+      font-style:initial;
+      z-index: 999;
+      padding: 5px;
     }
     
