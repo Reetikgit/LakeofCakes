@@ -570,11 +570,11 @@
       }
 
       .scres::-webkit-scrollbar {
-        display: block;
+        display: none;
       }
 
       .scres::-webkit-scrollbar {
-        display: block;
+        display: none;
       }
     }
 
@@ -822,3 +822,4 @@
         display: none !important;
       }
     }
+    

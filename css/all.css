@@ -10071,6 +10071,7 @@ button.bg-dark:hover {
 }
 
 @media (min-width:768px) {
+
     .text-md-left {
         text-align: left!important
     }
@@ -29115,6 +29116,12 @@ ul.attributes li a:hover {
     .core-nav .nav-row .col-xs-12 {
         width: 100%
     }
+    .owl-carousel .owl-item img {
+        height: 14rem;
+        width: 600px;
+        object-fit:fill;
+       
+    }
 }
 
 
@@ -29707,14 +29714,14 @@ a:hover {
 .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
-    float: left;
-    -webkit-backface-visibility: hidden;
+    float:right;
+    -webkit-backface-visibility: visible;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: auto;
 }
 
 .owl-carousel .owl-item img {
@@ -39692,6 +39699,7 @@ nav button {
     left: 10%;
     transform: translateX(-50%);
     bottom: 20px;
+    
 }
 
 .hero-area .hero-area-slider .owl-controls .owl-dots .owl-dot {
@@ -39881,8 +39889,13 @@ nav button {
      background-repeat: no-repeat;
      background-size: cover;
 
-     
+
   
+}
+.bestseller{
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .categori-item .section-top {
@@ -47132,6 +47145,7 @@ input[type=checkbox]:checked:disabled+label:before {
     position: absolute;
     z-index: 2;
     bottom: 0;
+    color: red;
     left: 0;
 }
 
@@ -48979,17 +48993,17 @@ p.product-unit-price {
     }
 }
 
-@media only screen and (min-width: 415px)and (max-width:454px) {
-    .banner-section {
+@media only screen and (min-width: 415px)and (max-width:450px) {
+    /* .banner-section {
         margin-top: -40%;
-    }
+    } */
 }
 
-@media only screen and (min-width: 465px)and (max-width:631px) {
+/* @media only screen and (min-width: 465px)and (max-width:631px) {
     .banner-section {
         margin-top: -20%;
     }
-}
+} */
 
 @media only screen and (max-width: 991px) {
     .core-nav .wrap-core-nav-list .core-nav-list {
@@ -49287,6 +49301,7 @@ p.product-unit-price {
     }
     .hero-area .hero-area-slider .intro-carousel .intro-content .slider-content .layer-1 .title {
         font-size: 34px;
+        visibility: hidden;
     }
     .logo-header .helpful-links li.my-dropdown .cart .icon i,
     .logo-header .helpful-links li.wishlist .wish i,
@@ -50041,6 +50056,12 @@ p.product-unit-price {
         border-radius: 20px;       
         
     }
+    .gardenofflower{
+        clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+        padding: 10rem 15%;
+
+    }
+
 
 }
 @media only screen and (max-width: 350px) {
