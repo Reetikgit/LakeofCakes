@@ -13,11 +13,8 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
     <!-- New Navbar Link -->
-
-    <link rel="stylesheet" href="mega-menu.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="mega-menu.css">
     <link rel="icon" type="image/x-icon" href="//lakeofcakes.com/assets/images/1596886304logo for favicon.PNG" />
 
 
@@ -60,55 +57,59 @@
 
 
 
-    <section class="top-header top-nav" style="background: #fff;">
-        <div class="container-fluid remove-padding topnaves" style="background: #f1f1f1;background-repeat-y: no-repeat;
+    <section class="top-header top-nav" style="background: orange;">
+        <div class="container-fluid remove-padding topnaves" style="background:rgb(128, 178, 201, 0.7);background-repeat-y: no-repeat;
     background-size: 617px; background-image: url(assets/front/images/demo/);">
             <div class="container topcnt">
                 <div class="row" style="justify-content: flex-end;">
                     <div class="">
                         <div class="content">
                             <div class="left-content">
-
+                            
                             </div>
                             <div class="right-content">
-                                <div class="list">
-                                    <ul>
+                                <div class="list" style="padding: 1px;">
+                                    <ul style="padding: 1px;">
                                         <li>
                                             <a type="button" data-toggle="modal" data-target="#topoffer"
-                                                style="background: #f00; padding: 0px 20px; position: relative; top:-2px">
+                                                style="background: rgb(209, 96, 96); padding: 0px 20px; position: relative;border:1px solid black;border-radius: 10px;">
                                                 <span class="sign-in" style="font-size: 14px; color: #fff;">
                                                     <i class="fa fa-gift" aria-hidden="true"></i> OFFER</span>
                                             </a>
-                                        </li> &nbsp;
-                                        <li><a href="//lakeofcakes.com/allcoupons" class="sign-log"><span
+                                        </li>
+                                    
+                                        <li><a href="//lakeofcakes.com/allcoupons" class="track-btn"><span
                                                     class="sign-in" style="font-size: 14px; color: #000;"><i
-                                                        class="fa fa-gift" aria-hidden="true"></i>
-                                                    COUPONS</span> </a></li> &nbsp;
-
+                                                        class="fa fa-gift" aria-hidden="true" style="color: rgb(235, 48, 79);"></i>
+                                                    COUPONS</span> </a>
+                                        </li> &nbsp;
+                                        <li><a href="//lakeofcakes.com/allcoupons" class="track-btn"><span
+                                            class="sign-in" style="font-size: 15px; color: #000;"><i
+                                                class="fa fa-sign-in" aria-hidden="true"style="color: rgb(235, 48, 79);"></i>
+                                            Login</span> </a>
+                                        </li> &nbsp;
+                                        <li><a href="//lakeofcakes.com/allcoupons" class="track-btn"><span
+                                            class="sign-in" style="font-size: 15px; color: #000;"><i
+                                                class="fa fa-user" aria-hidden="true"style="color: rgb(235, 48, 79);"></i>
+                                            SignUp</span> </a>
+                                        </li>
+                                        <li><a href="" data-toggle="modal" data-target="#track-order-modal"
+                                            class="track-btn"><span
+                                            class="sign-in" style="font-size: 15px; color: #000;"><i
+                                                class="fa fa-truck" style="color: rgb(235, 48, 79);"></i>
+                                            Track Order</span> </a>
+                                        </li>
                                         <li><a href="" class="sign-log"><span class="sign-in"
-                                                    style="font-size: 14px; color: #000;">+91
-                                                    9598891097</span> </a></li>
-                                        <li class="login">
-                                            <a href="//lakeofcakes.com/user/login" class="sign-log"
-                                                style="color: #000;">
-                                                <div class="links">
-                                                    <!--<span class="sign-in">Sign in</span> <span>|</span>-->
-                                                    <!--<span class="join">Join</span>-->
-
-                                                    <span class="sign-in" style="color: #000;">Login</span>
-                                                    <span class="join" style="color: #000;">Register</span>
-                                                </div>
-                                            </a>
-
+                                            style="font-size: 14px; color: #000; text-decoration: underline; "><i
+                                            class="fa fa-phone" style="color: rgb(51, 165, 51);"></i>&nbsp;<strong>+91
+                                            9598891097</strong></span> 
+                                         </a>
                                         </li>
-                                        <li>
-                                            <a href="javascript:;" data-toggle="modal" data-target="#track-order-modal"
-                                                class="track-btn" style="font-size: 14px; color: #000;">Track Order</a>
+                                        <li><a href="mailto:lakeofcakess@gmail.com" class="sign-log"><span class="sign-in"
+                                            style="font-size: 14px; color: #000; "><i
+                                            class="fa fa-envelope" style="color: rgb(214, 150, 55);"></i>&nbsp;<strong>Email Us</strong></span> 
+                                         </a>
                                         </li>
-
-
-
-
                                     </ul>
                                 </div>
                             </div>
@@ -572,16 +573,15 @@
                                 <form id="searchForm" class="search-form" action="//lakeofcakes.com/category"
                                     method="GET" style="display: inline-flex; width: 100%;">
                                     <input class="form-control" type="text" id="prod_name" name="search"
-                                        placeholder="Search Your Happiness" value="" autocomplete="off"
-                                        style="border-radius: 5px 0px 0px 5px;">
+                                        placeholder="Search: Cakes , Flowers ,Gifts..." value="" autocomplete="off"
+                                        style="border-radius: 15px 0px 0px 15px;border: none;">
                                     <div class="autocomplete">
                                         <div id="myInputautocomplete-list" class="autocomplete-items">
                                         </div>
                                     </div>
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" id="suggestionsearch" type="submit"
-                                            style="padding: 0px 16px; border-radius: 0px 5px 5px 0px;  background: #F00; border: #F00;"><i
-                                                class="icofont-search-1" style="color:#fff"></i></button>
+                                            style="padding: 0px 16px; border-radius: 0px 15px 15px 0px;  background: rgb(226, 150, 50); border: #F00;"><i class="fa fa-search" style="color:#fff"></i></button>
                                     </div>
                                 </form>
                             </div>
@@ -595,17 +595,16 @@
                         <li style="">
                             <a href="//lakeofcakes.com/midnight">
                                 <div class="text-center">
-                                    <img src="//lakeofcakes.com/assets/front/images/midnight.png" height="50"
-                                        width "50">
-                                    <div
-                                        style=" margin-top: 5px; width: 80px; background: #f00; padding: 0px 10px; color: #FFF; font-size: 12px; text-align: center;">
-                                        MIDNIGHT</div>
-                                </div>
+                                    <img src="https://terameracake.com/wp-content/uploads/2019/02/Midnight-Delivery.png" style="width:140px;object-fit: cover;">
+                                    <!-- <div
+                                        style=" margin-top: 5px; width: 80px;  padding: 0px 10px; color: rgb(9, 63, 85); font-size: 12px; text-align: center;">
+                                        Midnight Delivery</div>
+                                </div> -->
                             </a>
                         </li>
                         <li style="padding: 0px 28px;">
                             <a href="//lakeofcakes.com/midnight">
-                                <img src="//lakeofcakes.com/assets/front/images/CUSTOM_CAKE.png" height="50" width "50">
+                                <img src="https://cdn4.iconfinder.com/data/icons/professions-fourteen-black-and-white/128/Cook-food-cake-chef-512.png" style="width:100px;object-fit: cover;">
                                 <div
                                     style="margin-top: 5px; width: 80px; background: #f00; padding: 0px 10px; color: #FFF; font-size: 12px; text-align: center;">
                                     BE A CHEF</div>
@@ -613,7 +612,7 @@
                         </li>
                         <li style="">
                             <a href="#" type="button" data-toggle="modal" data-target="#exampleModal">
-                                <img src="//lakeofcakes.com/assets/front/images/reminder.png" height="50" width "50">
+                                <img src="https://www.flaticon.com/svg/static/icons/svg/1792/1792931.svg" style="width:100px;object-fit: cover;">
                                 <div
                                     style="margin-top: 5px; width: 80px; background: #f00; padding: 0px 10px; color: #FFF; font-size: 12px; text-align: center;">
                                     REMINDER</div>
@@ -631,7 +630,7 @@
                             <li class="my-dropdown" data-toggle="tooltip" data-placement="top" title="Cart">
                                 <a href="javascript:;" class="cart carticon">
                                     <div class="icon">
-                                        <i class="icofont-cart"></i>
+                                        <i class="fa fa-shopping-cart"></i>
                                         <span class="cart-quantity" id="cart-count">0</span>
                                     </div>
 
@@ -643,7 +642,7 @@
                             <li class="wishlist" data-toggle="tooltip" data-placement="top" title="Wish">
                                 <a href="javascript:;" data-toggle="modal" id="wish-btn" data-target="#comment-log-reg"
                                     class="wish">
-                                    <i class="far fa-heart"></i>
+                                    <i class="fa fa-heart"></i>
                                     <span id="wishlist-count">0</span>
                                 </a>
                             </li>
@@ -1693,8 +1692,8 @@
 
     </section>
 
-
-    <section class="banner-section">
+    <br>
+    <section class="banner-section" style="background: linear-gradient(rgba(112, 172, 190, 0.5), rgba(202, 194, 192, 0.616));">
         <h3 class="bannerheading">Choose the Best Joy</h3>
         <div class="container-fluid">
             <div class="row">
@@ -1737,8 +1736,22 @@
             </div>
         </div>
     </section>
+    <section class="" style="position: absolute;margin-top: -2%;">
+        <div class="contain ">
+            <!--<div class="row">-->
+            <div class="remoding">
+                <div class="img">
+                    <a class="" href="#">
+                        <img class="img-fuid" src="https://terameracake.com/wp-content/themes/bakery/assets/images/background/up.png"
+                            alt="" style="background-repeat: repeat;width: 1600px;height: 100px;">
+                    </a>
+                </div>
+            </div>
+            <!--</div>-->
+        </div>
+    </section>
     <br>
-    <section class="roundedborder d-md-block" style="background: #f2f2f2;">
+    <section class="roundedborder d-md-block" style="">
         <div class="container scres" style="overflow-x: overlay; padding: 5px 0px 0px 20px;">
             <div class="row rows" style="justify-content:space-evenly; flex-wrap: nowrap;">
                 <div class="sc-common-padding colxl2">
@@ -1894,6 +1907,7 @@
             </div>
         </div>
     </section>
+    
     <br>
 
 
