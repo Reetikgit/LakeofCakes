@@ -594,23 +594,8 @@
 
 
 
-    #responsive-nav {
+    .colapse {
       display: none;
-
-      label {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        padding: 16px;
-        font-size: 20px;
-        background: white;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
-        ;
-        cursor: pointer;
-        z-index: 3;
-        transition: background 0.3s cubic-bezier(.64, .09, .08, 1), color 0.3s cubic-bezier(.64, .09, .08, 1);
-      }
     }
 
     aside {
@@ -733,10 +718,15 @@
       margin-left: 260px;
       height: 100%;
     }
-
+    @media screen and (min-width:900px){
+      aside{
+        display: none;
+      }
+    }
     @media screen and (max-width: 2350px) {
       aside {
         transform: translateX(-100%);
+     
       }
 
       main {
@@ -766,7 +756,7 @@
 
     @media screen and (max-width: 700px) {
       aside {
-        width: 61%;
+        width: 81%;
       }
 
       #responsive-nav {
